@@ -1,0 +1,27 @@
+body {
+    background-color: #F2C068;
+    color:#376BA6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro";
+    font-size: 40pt;
+}
+
+
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+}
+
+#hero img {
+    width: 450px;
+}
+
+#bio {
+    text-align: center;
+}
