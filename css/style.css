@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-#hero, footer {
+#hero {
     text-align: center;
 }
 
@@ -24,4 +24,8 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#footer {
+    text-align: left;
 }
