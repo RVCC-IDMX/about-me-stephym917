@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40pt;
 }
 
+h2 {
+    margin: .1em;
+}
+
 
 
 header {
@@ -35,11 +39,18 @@ header {
     text-align: left;
 }
 /* Hobby Section */
+
+section#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #hobbies ul li {
     color:#376BA6;
     border: 2px solid #376BA6;
     margin-bottom:1rem;
-}
+    }
 
 /*Gallery*/
 #gallery {
@@ -59,5 +70,29 @@ header {
 #lit {
     border:3px solid #376BA6;
 }
+
+
+
+
+
+
+
+
+@media screen and (min-width:60em) {
+    figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+
+        margin-left: 1rem;
+    }
+}
+    
 
 
