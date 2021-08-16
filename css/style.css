@@ -69,6 +69,8 @@ section#hobbies {
 /*Literature*/
 #lit {
     border:3px solid #376BA6;
+    
+
 }
 
 
@@ -125,4 +127,13 @@ section#hobbies {
     }
 
  }
+
+ /* Video */
+ #video {
+     border:3px solid#376BA6;
+     margin-top: 2rem;
+     
+    }
+
+    
 
