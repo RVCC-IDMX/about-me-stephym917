@@ -25,8 +25,10 @@ main{
 /* navbar */
 
 .navbar {
-    background-color: dimgrey;
+    background-color:#376BA6;
     color: azure;
+    display: flex;
+    flex-direction: column;
 }
 
 /* logo */
