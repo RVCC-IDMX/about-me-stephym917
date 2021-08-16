@@ -130,9 +130,15 @@ section#hobbies {
 
  /* Video */
  #video {
-     border:3px solid#376BA6;
+     align-items: center;
+     margin-bottom: 2rem;
      
-     
+    }
+
+    /* Contct Form */
+
+    #FormElements{
+        display:grid;
     }
 
     
